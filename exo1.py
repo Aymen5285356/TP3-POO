@@ -42,8 +42,6 @@ class MissionTransport:
     def assigner_vehicule(self, vehicule):
         self.vehicule = vehicule
 
-
-# Test
 camion = Camion("123-A", 1000, 120, 5000)
 moto = Moto("456-B", 100, 180, 600)
 
