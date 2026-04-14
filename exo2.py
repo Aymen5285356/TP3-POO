@@ -50,8 +50,6 @@ class Client:
             elif isinstance(p, Electronique):
                 p.afficher_marque()
 
-
-# Test
 client = Client("Ali", "Casablanca")
 
 livre = Livre("Python", 20, "Dupont")
