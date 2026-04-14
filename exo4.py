@@ -46,8 +46,6 @@ class ClientPaiement:
     def effectuer_paiement(self):
         self.moyen_de_paiement.effectuer_paiement()
 
-
-# Test
 carte = CarteDeCredit(100, "2026-04-13", "1234-5678")
 client = ClientPaiement("Sara", "Rabat", carte)
 
