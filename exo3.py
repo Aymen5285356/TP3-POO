@@ -50,8 +50,6 @@ class Inventaire:
         for arme in self.armes:
             print(f"{arme.nom} - {arme.degats} dégâts")
 
-
-# Test
 guerrier = Guerrier("Thor", 10, 100, 20, 50)
 epee = Arme("Épée", 30)
 
